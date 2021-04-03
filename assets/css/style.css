@@ -1,0 +1,187 @@
+/* @import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri'); */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* The animation code */
+@keyframes fadeBody {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* The element to apply the animation to */
+
+
+.container{
+  min-height: 100%;
+  animation-name: fadeBody;
+  animation-duration: 1s;
+}
+
+
+/* home page */
+/*top search box css start here*/
+.search-sec{
+    background: #1A4668;padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+     height: calc(3rem + 2px) !important;
+     border-radius:0;
+}
+/* top search end */
+
+/* second search box */
+#homeSearchbody{
+    text-align: center;
+}
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color: #007bff;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #007bff;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+/* second search box ends */
+
+/* home page end */
+.fsection{
+  padding: 20px;
+	background-color:rgba(20, 21, 23, 0.99);
+  color: #fff;
+}
+
+
+#side-nav{
+    height: 100%;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#side-nav a{
+    color: #fff;
+}
+
+
+.review-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px;
+	border-radius:3px;
+	margin-bottom:15px;
+}
+.review-block-name{
+	font-size:12px;
+	margin:10px 0;
+}
+.review-block-date{
+	font-size:12px;
+}
+.review-block-rate{
+	font-size:13px;
+	margin-bottom:15px;
+}
+.review-block-title{
+	font-size:15px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+
+/* doctor info for suggestion */
+
+/*---------------------------------------
+  Contact section              
+-----------------------------------------*/
+
+.contact-info .fa {
+    padding-right: 5px;
+  }
+  
+  #contact .form-control {
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  #contact .form-control:focus {
+    border-bottom-color: #999999;
+  }
+  
+  #contact input {
+    height: 55px;
+  }
+  
+  #contact button#submit {
+    background: #2b2b2b;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 24px;
+  }
+  
+  #contact button#submit:hover {
+    background: #7682cc;
+    color: #ffffff;
+  }
